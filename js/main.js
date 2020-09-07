@@ -1,3 +1,5 @@
+/********Setting overlay height according to site size********/
+setOverlayHeight();
 window.onresize = setOverlayHeight;
 function setOverlayHeight(){
   var photo = document.querySelector(".intro-photo");

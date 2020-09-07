@@ -17,7 +17,7 @@ nav, .menu, .social, .brand, .cards-container {
 
 /* line 30, ../scss/main.scss */
 body {
-  background-color: #1a1f1d;
+  background-color: #101414;
   color: #dfd3d3;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -46,7 +46,7 @@ a {
 }
 /* line 51, ../scss/main.scss */
 a:hover {
-  text-decoration-line: #1a1f1d;
+  text-decoration-line: #101414;
 }
 
 /*******************COMPONENTS********************/
@@ -157,7 +157,7 @@ nav div {
 .overlay {
   width: 100%;
   height: 800px;
-  background-color: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   position: relative;
 }
 
@@ -211,7 +211,7 @@ nav div {
 /* line 8, ../scss/_about-me.scss */
 .about-me-container {
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 /* line 11, ../scss/_about-me.scss */
 .about-me-container h2 {
@@ -239,7 +239,7 @@ nav div {
 .slideshow-container {
   max-width: 700px;
   position: relative;
-  margin: auto;
+  margin: 20px auto;
 }
 
 /* Hide the images by default */
@@ -382,66 +382,67 @@ nav div {
   grid-template-columns: 70% 30%;
   width: 80%;
   margin: 0 auto;
+  border-top: 1px solid;
 }
-/* line 9, ../scss/_posts.scss */
+/* line 10, ../scss/_posts.scss */
 .content .posts .page-indicators {
   display: flex;
   justify-content: center;
   margin: 4px;
 }
-/* line 15, ../scss/_posts.scss */
+/* line 16, ../scss/_posts.scss */
 .content .posts .page-indicators a {
   padding: 7px 15px;
   border-radius: 50%;
   margin: 0% 1%;
 }
-/* line 20, ../scss/_posts.scss */
+/* line 21, ../scss/_posts.scss */
 .content .posts .page-indicators .page {
-  background-color: gray;
+  background-color: #333030;
   color: #dfd3d3;
 }
 
-/* line 28, ../scss/_posts.scss */
+/* line 29, ../scss/_posts.scss */
 .post {
   width: 90%;
   margin: 2rem 0;
 }
-/* line 31, ../scss/_posts.scss */
+/* line 32, ../scss/_posts.scss */
 .post .post-img {
   position: relative;
   padding: 20px 0;
   margin: 0 auto;
 }
-/* line 35, ../scss/_posts.scss */
+/* line 36, ../scss/_posts.scss */
 .post .post-img .post-info {
   display: flex;
   justify-content: space-evenly;
   margin: 7px;
 }
-/* line 40, ../scss/_posts.scss */
+/* line 41, ../scss/_posts.scss */
 .post .post-img img {
   width: 100%;
   transition: all 1s ease;
 }
-/* line 43, ../scss/_posts.scss */
+/* line 44, ../scss/_posts.scss */
 .post .post-img img:hover {
   transform: scale(1.3);
 }
-/* line 47, ../scss/_posts.scss */
+/* line 48, ../scss/_posts.scss */
 .post .post-img div {
   overflow: hidden;
 }
-/* line 51, ../scss/_posts.scss */
+/* line 52, ../scss/_posts.scss */
 .post .post-title {
   position: relative;
   text-align: justify;
 }
-/* line 55, ../scss/_posts.scss */
+/* line 56, ../scss/_posts.scss */
 .post .post-title a {
   font-size: 20px;
   color: white;
 }
-/* line 59, ../scss/_posts.scss */
+/* line 60, ../scss/_posts.scss */
 .post .post-title button {
   border: 1px solid #dfd3d3;
   cursor: pointer;
@@ -452,9 +453,10 @@ nav div {
   border-radius: 5px;
   margin-top: 20px;
 }
-/* line 68, ../scss/_posts.scss */
+/* line 69, ../scss/_posts.scss */
 .post .post-title button:hover {
   color: white;
+  font-size: 1.2em;
 }
 
 /* line 1, ../scss/_sidebar.scss */
@@ -512,7 +514,7 @@ nav div {
 .input-element {
   border-radius: 5%;
   width: 60%;
-  color: #1a1f1d;
+  color: #101414;
   margin: 3% 0;
 }
 
@@ -538,7 +540,7 @@ nav div {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-  padding: 40px;
+  padding: 60px 40px;
   align-items: center;
 }
 /* line 13, ../scss/_footer.scss */
