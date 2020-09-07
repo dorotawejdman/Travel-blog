@@ -38,13 +38,13 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: safe-rgba($dark,0.6);
+  background-color: safe-rgba($dark,0.5);
 }
 
 /* Caption text */
 .text {
   color: $text-light;
-  background-color: safe-rgba($dark,0.33);
+  background-color: safe-rgba($dark,0.3);
   font-size: 1.5em;
   padding: 2px 12px;
   position: absolute;

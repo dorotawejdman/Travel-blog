@@ -1,5 +1,13 @@
+window.onresize = setOverlayHeight;
+function setOverlayHeight(){
+  var photo = document.querySelector(".intro-photo");
+  var a = getComputedStyle(photo);
+  var overlay = document.querySelector(".overlay");
+  overlay.style.height = a.height;
+  console.log(a.height);
+}
 
-
+//***********SLIDESHOW********************* */
 var slideIndex = 0;
 showSlidesAuto();
 

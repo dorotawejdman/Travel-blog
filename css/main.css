@@ -50,7 +50,7 @@ a:hover {
 }
 
 /*******************COMPONENTS********************/
-/* line 1, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 1, ../scss/_nav.scss */
 nav {
   width: 100%;
   height: 50px;
@@ -58,40 +58,40 @@ nav {
   top: 0;
   z-index: 2;
 }
-/* line 8, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 8, ../scss/_nav.scss */
 nav div {
   padding: 10px;
 }
 
-/* line 14, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 14, ../scss/_nav.scss */
 .menu a {
   padding: 0 20px;
   font-size: 1.2rem;
 }
 
-/* line 19, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 19, ../scss/_nav.scss */
 .social {
   margin-right: 5vw;
 }
-/* line 22, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 22, ../scss/_nav.scss */
 .social a {
   padding: 0 5px;
   font-size: 1.6rem;
 }
 
-/* line 25, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 25, ../scss/_nav.scss */
 .brand {
   height: 100%;
   margin-left: 5vw;
   font-family: "Major Mono Display", monospace;
 }
 
-/* line 33, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 33, ../scss/_nav.scss */
 .fa-bars {
   font-size: 1.5em;
 }
 
-/* line 38, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 38, ../scss/_nav.scss */
 .dropbtn {
   background-color: transparent;
   padding: 16px;
@@ -99,12 +99,12 @@ nav div {
   border: none;
 }
 
-/* line 44, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 44, ../scss/_nav.scss */
 .dropdown {
   display: none;
 }
 
-/* line 47, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 47, ../scss/_nav.scss */
 .dropdown-content {
   position: fixed;
   width: 100vw;
@@ -115,33 +115,33 @@ nav div {
   min-width: 160px;
   z-index: 1;
 }
-/* line 57, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 57, ../scss/_nav.scss */
 .dropdown-content a {
   color: #dfd3d3;
   padding: 12px 0px;
   display: block;
 }
-/* line 62, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 62, ../scss/_nav.scss */
 .dropdown-content .nav-link, .dropdown-content .social-dropdown {
   margin-left: 5vw;
   padding-left: 0;
 }
-/* line 66, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 66, ../scss/_nav.scss */
 .dropdown-content :not(.nav-link) {
   display: inline-block;
   padding: 6px 5px;
 }
-/* line 69, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 69, ../scss/_nav.scss */
 .dropdown-content :not(.nav-link) :first-of-type {
   padding-left: 0;
 }
 
-/* line 75, E:/Web Development/Travel_Blog/scss/_nav.scss */
+/* line 75, ../scss/_nav.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* line 2, E:/Web Development/Travel_Blog/scss/_intro-photo.scss */
+/* line 2, ../scss/_intro-photo.scss */
 .main-page-intro img {
   width: 100%;
   min-width: 1100px;
@@ -153,21 +153,21 @@ nav div {
   top: 0;
 }
 
-/* line 15, E:/Web Development/Travel_Blog/scss/_intro-photo.scss */
+/* line 15, ../scss/_intro-photo.scss */
 .overlay {
   width: 100%;
   height: 800px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
   position: relative;
 }
 
-/* line 22, E:/Web Development/Travel_Blog/scss/_intro-photo.scss */
+/* line 23, ../scss/_intro-photo.scss */
 .bg-image {
   position: absolute;
   top: 0;
 }
 
-/* line 27, E:/Web Development/Travel_Blog/scss/_intro-photo.scss */
+/* line 28, ../scss/_intro-photo.scss */
 .intro-text {
   color: #dfd3d3;
   text-align: center;
@@ -181,7 +181,7 @@ nav div {
   padding-top: 25%;
 }
 
-/* line 40, E:/Web Development/Travel_Blog/scss/_intro-photo.scss */
+/* line 41, ../scss/_intro-photo.scss */
 .btn-main-explore {
   color: #dfd3d3;
   font-size: 20px;
@@ -191,16 +191,16 @@ nav div {
   margin: 10px;
   border: none;
 }
-/* line 48, E:/Web Development/Travel_Blog/scss/_intro-photo.scss */
+/* line 49, ../scss/_intro-photo.scss */
 .btn-main-explore i {
   padding-right: 5px;
 }
-/* line 51, E:/Web Development/Travel_Blog/scss/_intro-photo.scss */
+/* line 52, ../scss/_intro-photo.scss */
 .btn-main-explore:hover {
   background-color: sienna;
 }
 
-/* line 1, E:/Web Development/Travel_Blog/scss/_about-me.scss */
+/* line 1, ../scss/_about-me.scss */
 .about-me {
   padding-top: 2%;
   display: flex;
@@ -208,17 +208,17 @@ nav div {
   margin: 0 auto;
 }
 
-/* line 8, E:/Web Development/Travel_Blog/scss/_about-me.scss */
+/* line 8, ../scss/_about-me.scss */
 .about-me-container {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
-/* line 11, E:/Web Development/Travel_Blog/scss/_about-me.scss */
+/* line 11, ../scss/_about-me.scss */
 .about-me-container h2 {
   display: flex;
   justify-content: center;
 }
-/* line 15, E:/Web Development/Travel_Blog/scss/_about-me.scss */
+/* line 15, ../scss/_about-me.scss */
 .about-me-container img {
   width: 250px;
   height: 250px;
@@ -228,14 +228,14 @@ nav div {
   clip-path: circle();
   float: left;
 }
-/* line 24, E:/Web Development/Travel_Blog/scss/_about-me.scss */
+/* line 24, ../scss/_about-me.scss */
 .about-me-container p {
   padding: 3%;
   text-align: justify;
 }
 
 /* Slideshow container */
-/* line 2, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 2, ../scss/_carousell.scss */
 .slideshow-container {
   max-width: 700px;
   position: relative;
@@ -243,17 +243,17 @@ nav div {
 }
 
 /* Hide the images by default */
-/* line 9, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 9, ../scss/_carousell.scss */
 .mySlides {
   display: none;
 }
-/* line 12, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 12, ../scss/_carousell.scss */
 .mySlides img {
   width: 100%;
 }
 
 /* Next & previous buttons */
-/* line 18, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 18, ../scss/_carousell.scss */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -270,23 +270,23 @@ nav div {
 }
 
 /* Position the "next button" to the right */
-/* line 34, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 34, ../scss/_carousell.scss */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-/* line 40, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 40, ../scss/_carousell.scss */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Caption text */
-/* line 45, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 45, ../scss/_carousell.scss */
 .text {
   color: #dfd3d3;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
   font-size: 1.5em;
   padding: 2px 12px;
   position: absolute;
@@ -296,7 +296,7 @@ nav div {
 }
 
 /* Number text (1/3 etc) */
-/* line 57, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 57, ../scss/_carousell.scss */
 .numbertext {
   color: #dfd3d3;
   font-size: 12px;
@@ -306,7 +306,7 @@ nav div {
 }
 
 /* The dots/bullets/indicators */
-/* line 66, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 66, ../scss/_carousell.scss */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -318,12 +318,12 @@ nav div {
   transition: background-color 0.6s ease;
 }
 
-/* line 77, E:/Web Development/Travel_Blog/scss/_carousell.scss */
+/* line 77, ../scss/_carousell.scss */
 .active, .dot:hover {
   background-color: #4d6656;
 }
 
-/* line 1, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 1, ../scss/_card-carousell.scss */
 .cards-container {
   width: 70%;
   position: relative;
@@ -331,20 +331,20 @@ nav div {
   justify-content: space-around;
 }
 
-/* line 9, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 9, ../scss/_card-carousell.scss */
 .card {
   position: relative;
 }
-/* line 11, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 11, ../scss/_card-carousell.scss */
 .card img {
   width: 300px;
 }
-/* line 15, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 15, ../scss/_card-carousell.scss */
 .card div {
   text-align: center;
 }
 
-/* line 22, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 22, ../scss/_card-carousell.scss */
 .prev-card, .next-card {
   cursor: pointer;
   position: absolute;
@@ -360,88 +360,88 @@ nav div {
   user-select: none;
 }
 
-/* line 36, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 36, ../scss/_card-carousell.scss */
 .prev-card {
   left: 0;
 }
 
-/* line 39, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 39, ../scss/_card-carousell.scss */
 .next-card {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* line 43, E:/Web Development/Travel_Blog/scss/_card-carousell.scss */
+/* line 43, ../scss/_card-carousell.scss */
 .prev-card:hover, .next-card:hover {
   background-color: rgba(0, 0, 0, 0);
 }
 
-/* line 1, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 1, ../scss/_posts.scss */
 .content {
   display: grid;
   grid-template-columns: 70% 30%;
   width: 80%;
   margin: 0 auto;
 }
-/* line 9, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 9, ../scss/_posts.scss */
 .content .posts .page-indicators {
   display: flex;
   justify-content: center;
   margin: 4px;
 }
-/* line 15, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 15, ../scss/_posts.scss */
 .content .posts .page-indicators a {
   padding: 7px 15px;
   border-radius: 50%;
   margin: 0% 1%;
 }
-/* line 20, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 20, ../scss/_posts.scss */
 .content .posts .page-indicators .page {
   background-color: gray;
   color: #dfd3d3;
 }
 
-/* line 28, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 28, ../scss/_posts.scss */
 .post {
   width: 90%;
   margin: 2rem 0;
 }
-/* line 31, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 31, ../scss/_posts.scss */
 .post .post-img {
   position: relative;
   padding: 20px 0;
   margin: 0 auto;
 }
-/* line 35, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 35, ../scss/_posts.scss */
 .post .post-img .post-info {
   display: flex;
   justify-content: space-evenly;
   margin: 7px;
 }
-/* line 40, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 40, ../scss/_posts.scss */
 .post .post-img img {
   width: 100%;
   transition: all 1s ease;
 }
-/* line 43, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 43, ../scss/_posts.scss */
 .post .post-img img:hover {
   transform: scale(1.3);
 }
-/* line 47, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 47, ../scss/_posts.scss */
 .post .post-img div {
   overflow: hidden;
 }
-/* line 51, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 51, ../scss/_posts.scss */
 .post .post-title {
   position: relative;
   text-align: justify;
 }
-/* line 55, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 55, ../scss/_posts.scss */
 .post .post-title a {
   font-size: 20px;
   color: white;
 }
-/* line 59, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 59, ../scss/_posts.scss */
 .post .post-title button {
   border: 1px solid #dfd3d3;
   cursor: pointer;
@@ -452,22 +452,22 @@ nav div {
   border-radius: 5px;
   margin-top: 20px;
 }
-/* line 68, E:/Web Development/Travel_Blog/scss/_posts.scss */
+/* line 68, ../scss/_posts.scss */
 .post .post-title button:hover {
   color: white;
 }
 
-/* line 1, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 1, ../scss/_sidebar.scss */
 .sidebar {
   margin: 5%;
 }
 
-/* line 4, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 4, ../scss/_sidebar.scss */
 .category-list {
   padding: 0;
 }
 
-/* line 7, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 7, ../scss/_sidebar.scss */
 .list-item {
   list-style: none;
   border: 1px solid;
@@ -479,36 +479,36 @@ nav div {
   justify-content: space-between;
 }
 
-/* line 18, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 18, ../scss/_sidebar.scss */
 .popular-posts {
   padding-top: 30%;
 }
-/* line 21, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 21, ../scss/_sidebar.scss */
 .popular-posts .post .post-img {
   padding: 10px 0;
 }
 
-/* line 27, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 27, ../scss/_sidebar.scss */
 .post-title-side .sb-p-title {
   font-size: 18px;
 }
 
-/* line 32, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 32, ../scss/_sidebar.scss */
 .subscribe {
   padding-top: 30%;
 }
-/* line 34, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 34, ../scss/_sidebar.scss */
 .subscribe h2 {
   color: white;
 }
 
-/* line 39, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 39, ../scss/_sidebar.scss */
 .form-element {
   display: flex;
   flex-direction: column;
 }
 
-/* line 43, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 43, ../scss/_sidebar.scss */
 .input-element {
   border-radius: 5%;
   width: 60%;
@@ -516,7 +516,7 @@ nav div {
   margin: 3% 0;
 }
 
-/* line 50, E:/Web Development/Travel_Blog/scss/_sidebar.scss */
+/* line 50, ../scss/_sidebar.scss */
 .form-btn {
   padding: 5px 5%;
   border: 1px solid;
@@ -527,12 +527,12 @@ nav div {
   justify-content: center;
 }
 
-/* line 1, E:/Web Development/Travel_Blog/scss/_footer.scss */
+/* line 1, ../scss/_footer.scss */
 .footer {
   background-color: rgba(0, 0, 0, 0);
   margin-top: 4vh;
 }
-/* line 4, E:/Web Development/Travel_Blog/scss/_footer.scss */
+/* line 4, ../scss/_footer.scss */
 .footer .container {
   height: 15vh;
   display: flex;
@@ -541,16 +541,16 @@ nav div {
   padding: 40px;
   align-items: center;
 }
-/* line 13, E:/Web Development/Travel_Blog/scss/_footer.scss */
+/* line 13, ../scss/_footer.scss */
 .footer .social-footer a {
   margin: 0 10px;
   font-size: 20px;
 }
-/* line 18, E:/Web Development/Travel_Blog/scss/_footer.scss */
+/* line 18, ../scss/_footer.scss */
 .footer .copyright {
   font-size: 20px;
 }
-/* line 22, E:/Web Development/Travel_Blog/scss/_footer.scss */
+/* line 22, ../scss/_footer.scss */
 .footer .navigation a {
   margin: 0 10px;
 }
