@@ -1,0 +1,60 @@
+.sidebar{
+    margin: 5%;
+}
+.category-list{
+    padding: 0;
+}
+.list-item{
+    list-style: none;
+    border: 1px solid ;
+    border-radius: 3rem;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-posts{
+    padding-top: 30%;
+    .post{
+        .post-img{
+            padding: 10px 0;
+        }
+    }
+}
+
+.post-title-side .sb-p-title{ //to nie dziala bo wcesniej w posts jest ustawiane na 20
+    font-size: 18px;
+}
+
+
+.subscribe{
+    padding-top: 30%;
+    h2{
+        color: $lightest-color;
+    }
+
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+}
+.input-element{
+    border-radius: 5%;
+    width: 60%;
+    color: $dark-grey;
+    margin: 3% 0;
+}
+
+.form-btn{
+    padding: 5px 5%;
+    border: 1px solid;
+    color: $text-light;
+    background-color: inherit;
+
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+}

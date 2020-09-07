@@ -1,0 +1,150 @@
+//variables
+$font-one: Helvetica,Arial,sans-serif;
+$font-brand:'Major Mono Display', monospace;
+$menu-margin: 5vw;
+$dark-grey: rgb(26, 31, 29);
+$light-grey: rgb(51, 48, 48);
+$text-light: rgb(223, 211, 211);
+$lightest-color: white;
+$dark: rgb(0,0,0);
+
+@function safe-rgba($color, $alpha: 1.0) {
+    @return unquote("rgba(#{red($color)}, #{green($color)}, #{blue($color)}, #{$alpha})");
+}
+
+
+%flex-row {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+}
+
+/*******************GENERAL********************/
+*{
+    margin: 0;
+    color: $text-light;
+    box-sizing:border-box;
+}
+body{
+    background-color:  $dark-grey;
+    color: $text-light;
+    font:{
+        family:$font-one;
+    }
+}
+a,i{
+    padding-top:0px;
+}
+p{
+    padding: 5px 0;
+}
+hr{
+    background-color: $text-light;
+    width:80%;
+    margin: 0 auto 10px auto;
+}
+/*******************ELEMENTS********************/
+a{
+    text-decoration:none;
+    &:hover{
+        text-decoration-line: $dark-grey;
+    }
+}
+/*******************COMPONENTS********************/
+
+//Navbar and dropdown
+@import "nav.scss";
+
+//Intro photography
+@import "intro-photo.scss";
+
+//About me section
+@import "about-me.scss";
+
+//Photo carousell
+@import "carousell.scss";
+
+@import "card-carousell.scss";
+
+//Main content - blog posts + sidebar
+@import "posts.scss";
+@import "sidebar.scss";
+
+//Footer
+
+@import "footer.scss";
+
+/********************Responsiveness********************/
+@media only screen and (max-width:600px){
+    .about-me-main{
+        p{
+            font-size: 14px;
+            line-height: 25px;
+            padding: 20px;
+        }
+        img{
+            width: 350px;
+            height: 350px;
+            position: relative;
+            display: flex;
+            margin:30px auto;
+            float: none;
+            shape-outside: none;
+            clip-path: none;
+            box-shadow: 0 30px 30px rgba($dark,0.5);
+
+
+        }
+    }
+}
+@media (max-width:767px){
+    .dropdown-content{
+        .social-dropdown{
+            a{
+            display: none;
+            }
+        }
+    }
+    .intro-text{
+        padding-top: 330px;
+        font-size:20px;
+    }
+    .post-info{
+        font-size: 12px;
+    }
+    .category,.subscribe,.popular-posts{
+        h2{
+            font-size:20px;
+        }
+    }
+    .input-element,.form-btn{
+        width: 100%;
+    }
+    .category-list{
+        .list-item{
+            font-size: 14px;
+        }
+        span{
+            display: none;
+        }
+    }
+    .post-title-side .sb-p-title{
+        font-size: 16px;
+    }
+}
+@media (max-width:900px){
+    .dropdown{
+        display: inline-block;}
+    .nav-link,.social{
+        display: none;
+    }
+    .form-btn{
+        width: 60%;
+    }
+    .navigation{
+        display: none;
+    }
+
+}
