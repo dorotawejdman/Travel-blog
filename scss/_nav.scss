@@ -14,7 +14,25 @@ nav{
     a{  
         padding:0 20px;
         font-size:1.2rem;
-}
+    }
+    button{
+        padding:0 20px;
+        font-size:1.2rem;
+        border:none;
+        cursor: pointer;
+        background-color: transparent;
+        &:hover{
+            border:none;
+            background-color: transparent;
+        }
+        &:active {
+            outline: none;
+            border: none;
+          }
+        &:focus {
+            outline: 0;
+          }
+    }
 }
 .social{
     @extend %flex-row;
@@ -54,7 +72,7 @@ nav{
     min-width: 160px;
     //box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    a {
+    a,button {
         color: $text-light;
         padding: 12px 0px;
         //text-decoration: none;

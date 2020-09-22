@@ -8,6 +8,13 @@ function setOverlayHeight(){
   overlay.style.height = a.height;
   console.log(a.height);
 }
+//******Moving to specific location on menu butttons click******/
+
+function goTo(elementName) {
+  element = document.querySelector(elementName);
+  element.scrollIntoView(true);
+
+}
 
 //***********SLIDESHOW********************* */
 var slideIndex = 0;

@@ -68,30 +68,52 @@ nav div {
   padding: 0 20px;
   font-size: 1.2rem;
 }
+/* line 18, ../scss/_nav.scss */
+.menu button {
+  padding: 0 20px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+/* line 24, ../scss/_nav.scss */
+.menu button:hover {
+  border: none;
+  background-color: transparent;
+}
+/* line 28, ../scss/_nav.scss */
+.menu button:active {
+  outline: none;
+  border: none;
+}
+/* line 32, ../scss/_nav.scss */
+.menu button:focus {
+  outline: 0;
+}
 
-/* line 19, ../scss/_nav.scss */
+/* line 37, ../scss/_nav.scss */
 .social {
   margin-right: 5vw;
 }
-/* line 22, ../scss/_nav.scss */
+/* line 40, ../scss/_nav.scss */
 .social a {
   padding: 0 5px;
   font-size: 1.6rem;
 }
 
-/* line 25, ../scss/_nav.scss */
+/* line 43, ../scss/_nav.scss */
 .brand {
   height: 100%;
   margin-left: 5vw;
   font-family: "Major Mono Display", monospace;
 }
 
-/* line 33, ../scss/_nav.scss */
+/* line 51, ../scss/_nav.scss */
 .fa-bars {
   font-size: 1.5em;
 }
 
-/* line 38, ../scss/_nav.scss */
+/* line 56, ../scss/_nav.scss */
 .dropbtn {
   background-color: transparent;
   padding: 16px;
@@ -99,12 +121,12 @@ nav div {
   border: none;
 }
 
-/* line 44, ../scss/_nav.scss */
+/* line 62, ../scss/_nav.scss */
 .dropdown {
   display: none;
 }
 
-/* line 47, ../scss/_nav.scss */
+/* line 65, ../scss/_nav.scss */
 .dropdown-content {
   position: fixed;
   width: 100vw;
@@ -115,28 +137,28 @@ nav div {
   min-width: 160px;
   z-index: 1;
 }
-/* line 57, ../scss/_nav.scss */
-.dropdown-content a {
+/* line 75, ../scss/_nav.scss */
+.dropdown-content a, .dropdown-content button {
   color: #dfd3d3;
   padding: 12px 0px;
   display: block;
 }
-/* line 62, ../scss/_nav.scss */
+/* line 80, ../scss/_nav.scss */
 .dropdown-content .nav-link, .dropdown-content .social-dropdown {
   margin-left: 5vw;
   padding-left: 0;
 }
-/* line 66, ../scss/_nav.scss */
+/* line 84, ../scss/_nav.scss */
 .dropdown-content :not(.nav-link) {
   display: inline-block;
   padding: 6px 5px;
 }
-/* line 69, ../scss/_nav.scss */
+/* line 87, ../scss/_nav.scss */
 .dropdown-content :not(.nav-link) :first-of-type {
   padding-left: 0;
 }
 
-/* line 75, ../scss/_nav.scss */
+/* line 93, ../scss/_nav.scss */
 .dropdown:hover .dropdown-content {
   display: block;
 }
